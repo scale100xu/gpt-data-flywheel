@@ -1,0 +1,21 @@
+api-urls: # api urls
+  - https://api.openai.com/v1/chat/completions
+openai-tokens: # openai tokens
+  - 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
+  - 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
+proxys: # proxy address
+  -  # example as socks5://127.0.0.1:7890
+thread-count: 5 # thread count
+retry-count: 3 # request failure, try again count
+save-file: ./flywheel.md # save data file name
+seed-prompts-type: 0 # 0 is question as seed; 1 is answer as seed;
+seed-prompts: # seed prompts
+  - Java语言的设计哲学
+  - Java语言的常用库或框架，有哪些，各个的实现原理是什么
+  - 正则表达式的算法核心是什么
+  - 正则表达式的语法规则是什么
+  - 正则表达式可以做什么
+output-prompting-answer: 0 # 0 is not output prompting; 1 is output prompting;
+prompting-answers: # guide to ask questions
+  - 对下面的内容提出一些问题:\n\n
+  - 对下面的内容步步深入的提出一些问题:\n\n
