@@ -19,7 +19,6 @@ api-urls: # api urls
   - https://api.openai.com/v1/chat/completions
 openai-tokens: # openai tokens
   - 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
-  - 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
 proxys: # proxy address
   -  # example as socks5://127.0.0.1:7890
 thread-count: 5 # thread count
@@ -39,9 +38,14 @@ prompting-answers: # guide to ask questions
 
 ```
 
-### 2. 运行 gpt-data-flywheel，生成数据
-
+### 2. 安装和运行 gpt-data-flywheel，生成数据
+```shell
+git clone https://github.com/scale100xu/gpt-data-flywheel
+cd gpt-data-flywheel
+pip install -r requirements.txt
 python gpt-data-flywheel.py --config=./config.yaml
+```
+
 
 ### 3. 查看结果数据，例子中的结果文件为flywheel.md
 
@@ -53,7 +57,7 @@ python gpt-data-flywheel.py --config=./config.yaml
 
 ### 说明
 
-openai tokens 是我的测试账号，请大家有限制的使用，十分感谢！如果你有多余的token，欢迎贡献！！！！
+openai tokens 是测试账号，随时都有可能不能用，请用你自己的API token测试！
 
 ### 后续
 
