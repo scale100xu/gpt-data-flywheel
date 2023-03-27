@@ -63,3 +63,9 @@ openai tokens 是测试账号，随时都有可能不能用，请用你自己的
 
 虽说这是用gpt模型生成数据的工具，后续可以添加其它的模型，作为生成数据的底座！！！
 欢迎提出你的想法或善意的建议！！！
+
+### telegram testing group
+https://t.me/+BalrnUYBE4o3NTI1
+
+### discord testing group
+https://discord.gg/EknWWntCRE
